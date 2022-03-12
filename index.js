@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const axios = require('axios');
 const cors = require('cors');
 
-
+const routes = require('./routes')
 
 
 const app = express();
