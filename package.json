@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "serve": "nodemon -r dotenv/config index.js dotenv_config_path=.env",
-    "start": "nodemon index.js",
+    "start:backend": "nodemon index.js",
+    "start:client": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
