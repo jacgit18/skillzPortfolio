@@ -1,5 +1,8 @@
 {
   "name": "backend",
+  "config": {
+    "port": "4000"
+  },
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,6 +15,7 @@
   },
   "dependencies": {
     "axios": "^0.26.0",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0"

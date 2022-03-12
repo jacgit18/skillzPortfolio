@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
+
+import NewsFeed from './components/mycomp'
+
+
+
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +24,11 @@ function App() {
         >
           Learn React
         </a>
+        <NewsFeed />
+
       </header>
     </div>
   );
 }
 
-export default App;
+
